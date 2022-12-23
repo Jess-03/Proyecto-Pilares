@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+}
+
+
+/* Pag1 */
+.Contenedor1 {
+    height: 611px;
+    width: 100%;
+    background-image: url(imagenes/Bosqueop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.logo {
+    width: 120px;
+    position: absolute;
+    margin-left: 90%;
+    right: -0;
+}
+
+    .cborde1, .cborde2 {
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    opacity: 45%;
+    }
+
+    .cborde1 {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -20px;
+}
+
+
+
+/* Barra de navegación*/
+
+header{
+    height: 80px;
+}
+
+.barranav{
+    height: 25px;
+    position: absolute;
+    left: 20%;
+    margin-top: 45px;
+}
+
+ul {
+    padding-left: 0;
+}
+
+nav li {
+    list-style: none;
+    float: left;
+    width: 100px;
+    height: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Syne', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 100%;
+}
+
+header nav li a:hover {
+    background: #8d9c926e;
+    border-radius: 10px;
+}
+
+/* Proyecto*/
+
+.titulo {
+    height: 250px;
+    text-align: center;
+    margin-top: 110px;
+    margin-left: 250px;
+    margin-right: 250px;
+    box-sizing: border-box;
+    color: white;
+}
+
+    .titulo h1 {
+        font-size: 75px;
+        font-family: 'Ubuntu', sans-serif;
+        padding-bottom: 5px;
+    }
+
+    .titulo h2 {
+        padding-top:20px;
+        font-family: 'Ubuntu', sans-serif;
+        letter-spacing: 3px;
+}
+
+
+/* Pag 2 amenazas*/
+.Contenedor2 {
+    height: 670px;
+    background-color: whitesmoke;
+}
+
+    .Contenedor2 h2 {
+        display: flex;
+        justify-content: center;
+        padding: 50px;
+        font-size: 30px;
+        font-family: 'Ubuntu', sans-serif;
+        letter-spacing: 2px;
+        color: #051A0C;
+}
+
+    .amz {
+        display: flex;
+        justify-content:space-around;
+        font-family: 'Syne', sans-serif;
+        flex-wrap: wrap;
+    }
+
+    .amenazas {
+        width: 300px;
+    }
+
+        article {
+            box-sizing: content-box;
+            margin:5px;
+        }
+
+        h3 {
+            color: #051A0C;
+        }
+
+        .t1{
+            padding-left: 70px;
+        }
+
+        .t2 {
+            padding-left: 110px;
+        }
+        
+        .t3 {
+            padding-left: 50px;
+        }
+
+        .t4 {
+            padding-left: 35px;
+        }
+
+        button {
+            margin: 10px 0px 0px 105px;
+            border-radius: 15px;
+            border-width: 0px;
+            padding: 5px 12px;
+            font-family: 'Syne', sans-serif;
+            background-color: #051a0c7e;
+            color: white;
+        }
+
+        
+
+/* Pag 3 Ejes de accion */
+.Contenedor3 {
+    height: 750px;
+    background-color:rgb(209 225 208);
+    position: absolute;
+    font-family: 'Syne', sans-serif;
+    color:  #051A0C;
+}
+
+    aside {
+        height: 750px;
+        width:458px;
+        /* background-color: #4d564047; */
+        float: left;
+    }
+
+    aside h2 {
+        margin-top: 56px;
+        margin-left: 120px;
+        font-size: 40px;
+        letter-spacing: 2px;
+        /* color: white; */
+    }
+
+
+    .ejes {
+        background-color: #7986757c;
+        margin-top: 56px;
+        margin-left: 700px;
+        margin-right: 50px;
+        border-radius: 10px;
+
+    }
+
+    .etx {
+        padding: 20px;
+        /* color: white; */
+    }
+
+    .tx {
+        /* background-color: #3a5744; */
+        float: left;
+        width: 50px;
+        margin-top: 56px;
+        margin-left: 184px;
+        font-size: 35px;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 15px;
+        /* color: white; */
+    }
+
+
+
+/* Footer */
+
+#footer {
+    position: relative;
+    top: 749px;
+    height: 250px;
+    background-color: #051A0C;
+    color: white;
+    font-family: 'Syne', sans-serif;
+    font-size: 17px;
+}
+
+.logofooter {
+    width: 175px;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+footer ul {
+    list-style: none;
+    position: absolute;
+    margin-left: 270px;
+    margin-top: 80px;
+    line-height: 2;
+}
+
+.contacto {
+    position: absolute;
+    margin-left: 620px;
+    margin-top: 80px;
+    line-height: 2;
+}
+
+
+h5 {
+    position: absolute;
+    margin-left: 79%;
+    margin-top: 45px;
+    font-size: 25px; 
+}
+
+
+/* Redes sociales */
+
+.FB, .IG {
+    width: 90px;
+    margin-top: 100px;
+}
+
+.FB {
+    margin-left: 75%;
+}
+
+.IG {
+    margin-left: 25px;
+}
+
+
+/* Scrollbar */
+
+html::-webkit-scrollbar {
+    width: 12px;
+}
+
+html::-webkit-scrollbar-track {
+    border-radius: 8px;
+    background-color: #deffe9c2;
+    /* border: 1px solid #cacaca; */
+}
+
+html::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: #0329107e;
+}
